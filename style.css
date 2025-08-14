@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Poppins"), url("fonts/Poppins-Regular.woff") format("woff"),
+    url("fonts/Poppins-Regular.woff2") format("woff2"),
+    url("fonts/Poppins-Regular.eot") format("eot");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-style: normal;
+  src: local("Poppins"), url("fonts/Poppins-SemiBold.woff") format("woff"),
+    url("fonts/Poppins-SemiBold.woff2") format("woff2"),
+    url("fonts/Poppins-SemiBold.eot") format("eot");
+  font-display: swap;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #121127;
+  font-size: 36px;
+  font-weight: 600;
+
+  span {
+    color: #444BD3;
+  }
+}
+
+h2 {
+  color: #121127;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  font-weight: 400;
+}
+
+a {
+  color: #121127;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all .3s;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #444BD3;
+}
